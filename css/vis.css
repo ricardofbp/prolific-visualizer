@@ -1,0 +1,13 @@
+#top-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-left: -100px;
+}
+
+#bottom-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
