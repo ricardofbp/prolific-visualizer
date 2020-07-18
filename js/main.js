@@ -1,4 +1,4 @@
-let data = null;
+var data = null;
 
 d3.csv('data.csv', function (d) {
   return {
@@ -12,8 +12,10 @@ d3.csv('data.csv', function (d) {
   };
 }).then(function (d) {
   data = d;
-  // render();
+  renderBarChart();
 });
+
+
 
 function conversor(d) {
   title = d['Study'];
